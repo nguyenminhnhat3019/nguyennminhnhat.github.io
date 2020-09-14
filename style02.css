@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: black;
+}
+h1, h2, p{
+	color: white
+}
+.container-fluid{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	position: relative;
+}
+.nenmenu{
+	background-color:rgba(0,0,0,1.00);
+}
+.sizelogo{
+	width: 100px;
+	height: 100px;
+}
+.carousel.slide{
+	position: relative
+}	
+.vin img{
+	width: 800px;
+	position: absolute;
+	top: 200px;
+	left: 550px;
+	z-index: 10000000
+}
+.text{
+	position: absolute;
+	width: 500px;
+	bottom: 400px;
+	left: 700px;
+	color: white;
+	font-size: 20px;
+	text-align: center
+}
+.tieude01{
+	text-align: center;
+	color: #1e3c54;
+	font-style: italic;
+}
+.nav-link{
+	color: red;
+	margin-left: 20px;
+}
+#navbarResponsive{
+	text-align: center
+}
+.lenoidung{
+	margin-top: 30px;
+}
+
+.sanpham{
+	margin-bottom: 20px;
+}
+.container {
+	
+	background: rgba(0,0,0,1.00)
+}
+.sanpham img{
+	width: 100%;
+	height: 250px;
+	opacity: 0.5;
+	transition: all 0.3s linear;
+	transform: scale(0.8);
+}
+.sanpham:hover img
+{
+	opacity: 1;
+	transform: scale(1);
+}
+.content01{
+	width: 100%;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.caption{
+	width: 100%;
+	height: 130px;
+	background-color: rgba(54,53,53,0.4);
+	-webkit-transition: all 0.6s linear;
+	-moz-transition: all 0.6s linear;
+	-ms-transition: all 0.6s linear;
+	-o-transition: all 0.6s linear;
+	transition: all 0.6s linear;
+	position: absolute;
+	left: 0px;
+	bottom: -160px;
+}
+
+.caption h3{
+	color:wheat;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+.caption p{
+	color: white;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+.content01:hover .caption{
+	bottom: 0px;
+}
+
+.nenblog{
+	background-color:#515151;
+	padding: 10px;
+	opacity: 45%; 
+}
+
+.nenblog h4{
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.ngaydang{
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 500;
+	padding-bottom: 30px;
+}
+
+.duongke{
+	border-bottom: dashed 1px #FFFFFF;
+}
+
+.xemthem{
+	padding: 10px 15px;
+	color: white;
+	background-color:#000000;
+	position: absolute;
+	bottom: -4px;
+	left: 36%;
+}
+
+@media only screen and (max-width:1204px){
+	.xemthem{
+		left: 25%;
+	}
+}
+
+@media only screen and (max-width:767px){
+	.xemthem{
+		left: 35%;
+	}
+}
+
+.leblog{
+	margin-bottom: 40px;
+}
+
+/*Contact*/
+#contact{
+	width: 95%; margin: 0 auto;
+}
+.form{
+	width: 47%; float: left;
+}
+.info{
+	width: 49%; float: right;
+}
+.info ul{
+	list-style-type: square; line-height: 1.5;
+	color: white
+}
+.form p{
+	margin: 5px 0 0 0;
+}
+.info h2{
+	color: black; font-size: 30px;
+}
+.form input[type="text"]{
+	width: 100%; height: 30px;
+}
+.form input[type="button"]{
+	width: 100px; height: 40px;
+	background-color: #1e3c54; color: #ffffff;
+	border: none; font-weight: bold;
+}
+.form textarea{
+	width: 100%;
+}
+
+@media only screen and (max-width:768px){
+	.info h2{
+		color: black; font-size: 20px;
+	}
+}
+@media only screen and (max-width:500px){
+	.form{
+		width: 98%;
+	}
+	.info{
+		width: 98%; margin-top: 30px;
+	}
+}
+.tieude01{
+	margin-top: 40px;
+	color: white;
+}
